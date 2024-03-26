@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="../css/Cau2d.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form">
+            <h2>FORM ĐỊNH DẠNG</h2>
+            <form id="contactForm">
+                <label for="name">Họ và tên </label>
+                <input type="text" id="name"> <br>
+                <label for="submit">Chọn </label>
+                <input type="radio" id="background" name="option" checked> Background
+                <input type="radio" id="font" name="option" checked> Font <br>
+                <label for="color"> Chọn màu </label>
+                <select id="color" name="color">
+                    <option value="red">Đỏ</option>
+                    <option value="green">Xanh lá cây</option>
+                    <option value="blue">Xanh dương</option>
+                    <option value="yellow">Vàng</option>
+                    <option value="orange">Cam</option>
+                </select> <br>
+                <input type="submit" id="submit" value="Đổi màu">
+                <input type="submit" id="cannel" value="Cannel">
+            </form>
+        </div>
+        <p>you can direct link the hyperlink with the file if you know the address but this is limited by the browser. 
+            eg. if pdf reader is installed on the client then the pdf will not be downloaded instead it will be shown. 
+            A good solution would be to have a seperate page for downloading files. 
+            just pass filename in querystring and in the pageload event just outpit the file in response stream. 
+            This way you can use url say dwnld.aspx? filename.ext</p>
+    </div>
+    <script src="../js/Cau2d.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.form-container{
+    height: 300px;
+    width: 400px;
+    border: 1px solid blue;
+    margin: auto;
+    padding: 15px;
+}
+.form{
+    padding-left: 50px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Đăng ký và Đăng nhập</title>
+  <link rel="stylesheet" type="text/css" href="../css/Cau2a.css">
+</head>
+<body>
+  <div class="container">
+    <h1 id="login-heading">ĐĂNG NHẬP</h1>
+    <form id="login-form" onsubmit="login(event)">
+      <input type="text" id="login-username" placeholder="Tên đăng nhập" required>
+      <input type="password" id="login-password" placeholder="Mật khẩu" required>
+      <button type="submit">ĐĂNG NHẬP</button>
+    </form>
+
+    <h1 id="register-heading" style="display: none;">ĐĂNG KÝ</h1>
+    <form id="register-form" onsubmit="register(event)" style="display: none;">
+      <input type="text" id="register-username" placeholder="Tên đăng nhập" required>
+      <input type="password" id="register-password" placeholder="Mật khẩu" required>
+      <button type="submit">TẠO TÀI KHOẢN</button>
+    </form>
+
+    <div id="message"></div>
+
+    <div id="toggle-forms">
+      <button onclick="showLoginForm()" id="login">ĐĂNG NHẬP</button>
+      <button onclick="showRegisterForm()" id="logout">ĐĂNG KÝ</button>
+    </div>
+  </div>
+  <script src="../js/Cau2a.js"></script>
+</body>
+</html>

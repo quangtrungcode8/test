@@ -1,0 +1,39 @@
+#div1{
+    margin-top: auto;
+    margin: auto;
+    height: 600px; 
+    width:900px; 
+    border: 1px solid #ccc;
+    background-size: cover;
+    }
+
+#giua{
+    display: flex;
+    justify-content: center ;
+}
+body{
+    padding: 20px;
+    height: 630px;
+    width: 950px;
+    border: 10px solid #ccc;
+    margin: auto;
+}
+
+#btnPlay{
+    width: 60px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    transform: perspective(60px) rotateX(30deg);
+}
+#btnStop{
+    margin-top: 3px;
+    width: 60px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    transform: perspective(60px) rotateX(-30deg);
+}
+button{
+    margin-right: 20px;
+}

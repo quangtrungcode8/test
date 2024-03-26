@@ -1,0 +1,80 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container input[type="text"] {
+    position: relative;
+    left: 10px;
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container button[type="submit"]{
+    position: relative;
+    left: 60px;
+}
+#submit {
+    width: 30%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#cannel {
+    width: 30%;
+    padding: 10px;
+    background-color: #af4c5b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: #45a049;
+}
+
+#cannel:hover {
+    background-color: #a04553;
+}
+
+.student-table {
+    margin-top: 20px;
+    width: 30%;
+    margin: 0 auto;
+}
+.column h2{
+    color: #a04553;
+    width: 30%;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: auto;
+}
+
+.student-table th,
+.student-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.column-container {
+    display: flex;
+}
+
+.column-container .column {
+    flex: 1;
+    padding: 10px;
+}

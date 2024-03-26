@@ -1,0 +1,13 @@
+body{
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+}
+.checkbox-container{
+    margin-bottom: 5px;
+}
+.selected-text{
+    color: red;
+}

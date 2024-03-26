@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="stylesheet" href="../css/Cau1.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>NHẬP MÃ SINH VIÊN</h2>
+        <form id="studentForm">
+            <input type="text" id="studentId" placeholder="Student ID" required>
+            <button type="submit" id="submit">Submit</button>
+            <button type="submit" id="cannel">Cannel</button>
+        </form>
+    </div>
+
+    <div class="column-container" id="studentInfoContainer" style="display: none;">
+        <div class="column">
+            <h2>DANH SÁCH SINH VIÊN</h2>
+            <table id="studentInfoTable" class="student-table">
+                <tr>
+                    <th>MSSV</th>
+                    <th>Tên</th>
+                    <th>Lớp</th>
+                </tr>
+                <tr>
+                    <td id="studentIdOutput"></td>
+                    <td id="fullNameOutput"></td>
+                    <td id="classOutput"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="../js/Cau1.js"></script>
+</body>
+</html>

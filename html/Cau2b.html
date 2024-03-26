@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Máy tính cơ bản</title>
+  <link rel="stylesheet" type="text/css" href="../css/Cau2b.css">
+</head>
+<body>
+  <div class="calculator">
+    <h2>PHÉP TÍNH CƠ BẢN</h2>
+    Nhập số thứ 1<input type="number" id="number1"> <br>
+    Nhập số thứ 2<input type="number" id="number2"> <br>
+    <div class="buttons">
+      <button onclick="calculate('+')">Cộng</button>
+      <button onclick="calculate('-')">Trừ</button>
+      <button onclick="calculate('*')">Nhân</button>
+      <button onclick="calculate('/')">Chia dư</button>
+    </div>
+    <div id="error-message"></div>
+    Kết quả<input type="text" id="result" readonly>
+  </div>
+
+  <script src="../js/Cau2b.js"></script>
+</body>
+</html>
